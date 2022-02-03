@@ -1,0 +1,17 @@
+﻿Build started 10-Feb-18 7:33:23 AM.
+     1>Project "E:\Survival game(final)\Survival game..(sound)\Survival game\Survival game\Survival game.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Survival game.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         Survival game.vcxproj -> E:\Survival game(final)\Survival game..(sound)\Survival game\Debug\Survival game.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Survival game.unsuccessfulbuild".
+         Touching "Debug\Survival game.lastbuildstate".
+     1>Done Building Project "E:\Survival game(final)\Survival game..(sound)\Survival game\Survival game\Survival game.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.05

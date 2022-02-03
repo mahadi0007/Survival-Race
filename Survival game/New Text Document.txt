@@ -1,0 +1,41 @@
+if((gbomb[i].gbomb_x+8>=oppcar2_x && gbomb[i].gbomb_x<=oppcar2_x+oppcar2_w) && (gbomb[i].gbomb_y+13>=oppcar2_y && gbomb[i].gbomb_y<=oppcar2_y+oppcar2_h))
+				{
+					//printf("vansishes");
+					//vanish2=1;
+					gbomb[i].isBombActive = false;
+					gbomb[i].gbombshow=false;
+					iShowImage(oppcar2_x,oppcar2_y,flame_w,flame_h,flame);
+					
+					c2=false;
+					oppcar2_x=1600;
+
+				}
+			//else vanish2=0;
+
+			if((gbomb[i].gbomb_x+8>=oppcar3_x && gbomb[i].gbomb_x<=oppcar3_x+oppcar3_w) && (gbomb[i].gbomb_y+13>=oppcar3_y && gbomb[i].gbomb_y<=oppcar3_y+oppcar3_h))
+				{
+					//printf("vansishes");
+					//vanish3=1;
+					gbomb[i].isBombActive = false;
+			
+					gbomb[i].gbombshow=false;
+					iShowImage(oppcar3_x,oppcar3_y,flame_w,flame_h,flame);
+					
+					c3=false;
+					oppcar3_x=1300;
+				}
+				//else vanish4=0;
+			if((gbomb[i].gbomb_x+8>=oppcar4_x && gbomb[i].gbomb_x<=oppcar4_x+oppcar4_w) && (gbomb[i].gbomb_y+13>=oppcar4_y && gbomb[i].gbomb_y<=oppcar4_y+oppcar4_h))
+				{
+					//printf("vansishes");
+					//vanish4=1;
+					gbomb[i].isBombActive = false;
+			
+					gbomb[i].gbombshow=false;
+					iShowImage(oppcar4_x,oppcar4_y,flame_w,flame_h,flame);
+					
+					c4=false;
+					oppcar4_x=1000;
+				}
+			//else vanish4=0;
+		}
